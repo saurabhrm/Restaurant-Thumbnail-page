@@ -1,0 +1,109 @@
+:root{
+  --primary:hsla(224, 37%, 14%,0.7);
+  --secondary:#ff505f;
+  --third:#ffc233;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+ 
+}
+body{
+
+  margin: 2rem 2.5rem;
+
+  background: linear-gradient(135deg,var(--primary),var(--primary)),
+              url("./assets/pexels-maxyne-barcel-10402282\ 1.png") no-repeat    ;
+  
+}
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+  }
+
+  .list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+  }
+
+  .list-item{
+    margin: 0px 25px;
+    color: var(--third);
+    cursor: pointer;
+  }
+
+  .button-small{
+    background-color: var(--secondary);
+    color: #fdfdfd;
+    padding: 11px 22px;
+    border: none;
+    font-family: "Red Rose";
+    font-weight: 400;
+    font-size: large;
+    margin: 0px 24px;
+    cursor: pointer;
+  }
+
+  .navbar >div>img{
+    height: 40px;
+  }
+
+/* ------------------------------ */
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+
+  .hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+  }
+
+  .hero-heading{
+    color: var(--third);
+    font-family: 'Dela Gothic One';
+    flex-direction: column;
+    font-size: 81px;
+    justify-content: center;
+    text-align: center;
+    margin: 31px 100px;
+    line-height: 98px;
+    font-weight: 300;
+    width: 57rem;
+  }
+
+  .button-large{
+    padding: 13px 20px;
+    width: 15rem;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin: auto;
+    font-size: 20px;
+    background-color: var(--secondary);
+    color: white;
+    border: none;
+    font-weight: 400;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+
+/* ------------------------------ */
+
+
+.bottom div img{
+  height: 8rem;
+  float: right;
+}
