@@ -12,6 +12,7 @@
 
 
 >### Time Required to Complete This Project
-- 2hr 
+- 1:30hr 
 
->### Live Link of this Project
+---
+>### [Live Project Link Click Here ](https://project2-food.netlify.app/)
